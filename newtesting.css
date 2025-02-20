@@ -189,7 +189,7 @@ i
         background-color: #198f85;
         width: auto;
         position: absolute;
-        top: 65px;
+        top: 85px;
         right: 0px;
         padding: 0;
         transition: max-height 0.3s ease-in-out;
@@ -212,7 +212,7 @@ i
         width: 100%;
         text-align: center;
         font-size: 1rem;
-        margin: 1px;
+        margin: 5px;
         color: rgb(255, 255, 255);
         transition: all 0.5s ease-in-out;
     }
