@@ -167,6 +167,14 @@ i
 {
     text-align: center;
 }
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;      
+    } 
+}
 @media (max-width: 768px) {
     body {
         font-size: 2rem;
@@ -199,13 +207,13 @@ i
 
     nav ul.active {
         max-height: 200px; 
+        animation: fadeIn 0.4s ease-in-out;
     }
 
     nav ul li {
         display: block;
-        transition: all 0.5s ease-in-out;
+      
     }
-
     nav ul li a {
         display: block;
         padding: 5px;
@@ -215,6 +223,9 @@ i
         margin: 1px;
         color: rgb(255, 255, 255);
         transition: all 0.5s ease-in-out;
+    }
+    nav ul li a:hover {
+        padding-left: 10px;
     }
     .footer {
         margin: 0;
